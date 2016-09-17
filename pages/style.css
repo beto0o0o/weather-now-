@@ -1,0 +1,43 @@
+
+.container {
+	max-width: 1000px;
+	height: 100vh;	
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+}
+.container-day {
+	background-color:#29C1AE ;
+}
+.spacer {
+	height: 40px;
+}
+#fieldText {
+	min-width: 200px;
+	padding: .5em .6em;
+	box-shadow: inset 0 1px 3px #ddd;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	color: #aaa;
+
+}
+.sun {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container-night {
+	background-color:#001333 ;
+}
+.situation {
+	font-size: 2em;
+}
+.temperature h1 {
+	font-size: 4em;
+}
+.max-temp {
+	display: flex;
+	justify-content: center;
+}
+.max-temp p {
+	padding: 10px;
+}
